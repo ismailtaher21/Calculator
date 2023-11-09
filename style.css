@@ -1,0 +1,72 @@
+/* black (body and background) = #14140F  */
+/* ocean blue (button) = #053D38 || #34675C  */
+/*  display (screen) = #A3CCAB */
+/*  button (equal) = #F26800 */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background-color: violet;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    
+}
+
+.calculator{
+    background-color: black;
+    height: 500px;
+    width: 500px;
+    margin: 100px;
+
+}
+
+.calculator-screen{
+    height: 80px;
+    width: 100%;
+}
+
+.calculator-btn{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+    gap: 10px;
+
+}
+
+
+
+.calculator-btn > button{
+    height: 90px;
+    background-color: rgb(105, 102, 102);
+    margin: 6px 6px 0 6px;
+
+    
+    font-size: larger;
+    color: white;
+}
+
+#equal{
+    background-color: rgb(0, 119, 255);
+}
+
+#equal:hover{
+    background-color: rgb(0, 17, 255);
+}
+
+#AC{
+    background-color: rgb(255, 123, 0);
+}
+
+#AC:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+button:hover {
+    background-color: #363333;
+  }
+
